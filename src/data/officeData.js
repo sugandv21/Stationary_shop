@@ -210,17 +210,47 @@ export const officeProducts = [
     ],
   },
   {
-    id: 5,
-    name: "Scissors Set",
-    price: 50,
-    bulkOffer: "Buy 3 or more @ Rs. 101.20",
-    img: scissorsImg,
-    rating: 4,
-    title: "Durable and Easy-to-Use Scissors Set",
-    description: "Sharp scissors set for home, school, and office use.",
-    features: ["Stainless steel blades", "Ergonomic handle"],
-    reviews: [],
-  },
+  id: 5,
+  name: "Scissors Set",
+  price: 50,
+  bulkOffer: "Buy 3 or more @ Rs. 101.20",
+  img: scissorsImg,
+  rating: 4,
+  title: "Durable and Easy-to-Use Scissors Set",
+  description: "Sharp scissors set for home, school, and office use.",
+  features: ["Stainless steel blades", "Ergonomic handle"],
+  reviews: [
+    {
+      id: 1,
+      title: "Positive Review – Student Perspective",
+      rating: 5,
+      comment:
+        "These scissors are perfect for school projects. They cut smoothly and don’t hurt my hands even after extended use.",
+    },
+    {
+      id: 2,
+      title: "Positive Review – Professional/Office Use",
+      rating: 5,
+      comment:
+        "High-quality scissors for office use. The stainless steel blades are sharp, and the ergonomic handle is comfortable for daily tasks.",
+    },
+    {
+      id: 3,
+      title: "Neutral Review – General Use",
+      rating: 4,
+      comment:
+        "Good scissors overall. They cut well, but the handle could be slightly bigger for better comfort during long tasks.",
+    },
+    {
+      id: 4,
+      title: "Critical Review – Beginner User",
+      rating: 3,
+      comment:
+        "The scissors work fine, but I had trouble cutting thick cardboard. They are fine for paper and light materials, though.",
+    },
+  ],
+},
+
   {
     id: 6,
     name: "Stapler",
@@ -229,22 +259,92 @@ export const officeProducts = [
     img: staplerImg,
     rating: 4,
     title: "Durable and Ergonomic Stapler",
-    description: "Strong and durable stapler for everyday office and school use.",
-    features: ["Durable build", "Easy to reload", "Compact design"],
-    reviews: [],
+    description: `Strong and durable stapler for everyday office and school use. It's made from durable materials like glass and plastic, 
+    which means it will last a long time. This stapler is made from durable materials like glass and plastic, 
+    which means it will last a long time. The stapler comes with a strong handle for easy use and a strong grip for easy use. 
+    The stapler comes with a strong handle for easy use and a strong grip for easy use.`,
+    features: [
+      "Durable build for office and school use",
+      "Easy to reload for easy use",
+      "Compact design for easy transportation",
+      "Strong handle for easy use",
+      "Strong grip for easy use",
+    ],
+    reviews: [
+      {
+        id: 1,
+        title: "Positive Review – Student Perspective",
+        rating: 5,
+        comment:
+          "This stapler has been a great addition to my stationery collection. It's durable and easy to use, and it's perfect for both office and school use. I highly recommend it!",
+      },
+      {
+        id: 2,
+        title: "Neutral Review – General Use",
+        rating: 4,
+        comment:
+          "I like this stapler, but I think it could be better if it had a few more features. Maybe a longer handle or a way to store more papers.",
+      },
+      {
+        id: 3,
+        title: "Critical Review – Professional/Engineer",
+        rating: 3,
+        comment:
+          "This stapler is solid, but I think it could be better if it had a longer handle. I also think it could be more durable to avoid breaking.",
+      },
+      {
+        id: 4,
+        title: "Critical Review – Beginner User",
+        rating: 3,
+        comment:
+          "I found this stapler a bit overwhelming at first. It has a lot of features, but the instructions weren’t very beginner-friendly. It works fine, but I had to look up tutorials online to figure it out.",
+
+      }
+      
+    ],
   },
-  {
-    id: 7,
-    name: "Highlighter",
-    price: 50,
-    bulkOffer: "Buy 3 or more @ Rs. 101.20",
-    img: highlighterImg,
-    rating: 4,
-    title: "Professional-Grade Highlighter for Office Use",
-    description: "Bright and long-lasting highlighters for study and work.",
-    features: ["Set of 5 colors", "Smudge proof"],
-    reviews: [],
-  },
+ {
+  id: 7,
+  name: "Highlighter",
+  price: 50,
+  bulkOffer: "Buy 3 or more @ Rs. 101.20",
+  img: highlighterImg,
+  rating: 4,
+  title: "Professional-Grade Highlighter for Office Use",
+  description: "Bright and long-lasting highlighters for study and work.",
+  features: ["Set of 5 colors", "Smudge proof"],
+  reviews: [
+    {
+      id: 1,
+      title: "Positive Review – Student Perspective",
+      rating: 5,
+      comment:
+        "These highlighters are fantastic! The colors are vibrant, and they don’t smudge on my notes. Perfect for studying and marking important points.",
+    },
+    {
+      id: 2,
+      title: "Positive Review – Professional/Office Use",
+      rating: 5,
+      comment:
+        "Great highlighters for office use. The ink dries quickly and stays bright for a long time. Makes organizing documents so much easier.",
+    },
+    {
+      id: 3,
+      title: "Neutral Review – General Use",
+      rating: 4,
+      comment:
+        "The highlighters work well, but I wish the tips were a little more durable. Otherwise, they perform as expected.",
+    },
+    {
+      id: 4,
+      title: "Critical Review – Beginner User",
+      rating: 3,
+      comment:
+        "I found some colors too light to be visible on printed pages. Works fine on notes, but not ideal for all paper types.",
+    },
+  ],
+},
+
   {
     id: 8,
     name: "Stapler",
@@ -253,9 +353,49 @@ export const officeProducts = [
     img: staplerImg,
     rating: 4,
     title: "Durable and Ergonomic Stapler",
-    description: "Strong and durable stapler for everyday office and school use.",
-    features: ["Durable build", "Easy to reload", "Compact design"],
-    reviews: [],
+    description: `Strong and durable stapler for everyday office and school use. It's made from durable materials like glass and plastic, 
+    which means it will last a long time. This stapler is made from durable materials like glass and plastic, 
+    which means it will last a long time. The stapler comes with a strong handle for easy use and a strong grip for easy use. 
+    The stapler comes with a strong handle for easy use and a strong grip for easy use.`,
+    features: [
+      "Durable build for office and school use",
+      "Easy to reload for easy use",
+      "Compact design for easy transportation",
+      "Strong handle for easy use",
+      "Strong grip for easy use",
+    ],
+    reviews: [
+      {
+        id: 1,
+        title: "Positive Review – Student Perspective",
+        rating: 5,
+        comment:
+          "This stapler has been a great addition to my stationery collection. It's durable and easy to use, and it's perfect for both office and school use. I highly recommend it!",
+      },
+      {
+        id: 2,
+        title: "Neutral Review – General Use",
+        rating: 4,
+        comment:
+          "I like this stapler, but I think it could be better if it had a few more features. Maybe a longer handle or a way to store more papers.",
+      },
+      {
+        id: 3,
+        title: "Critical Review – Professional/Engineer",
+        rating: 3,
+        comment:
+          "This stapler is solid, but I think it could be better if it had a longer handle. I also think it could be more durable to avoid breaking.",
+      },
+      {
+        id: 4,
+        title: "Critical Review – Beginner User",
+        rating: 3,
+        comment:
+          "I found this stapler a bit overwhelming at first. It has a lot of features, but the instructions weren’t very beginner-friendly. It works fine, but I had to look up tutorials online to figure it out.",
+
+      }
+      
+    ],
   },
   {
     id: 9,
@@ -264,10 +404,48 @@ export const officeProducts = [
     bulkOffer: "Buy 3 or more @ Rs. 101.20",
     img: kitImg,
     rating: 4,
-    title: "Complete Stationery Kit for Students and Professionals",
-    description: "Complete stationery kit for students and professionals.",
-    features: ["Includes pens, pencils, ruler, eraser", "Portable case"],
-    reviews: [],
+   title: "Complete Stationery Kit for Students and Professionals",
+    description: ` Complete stationery kit for students and professionals. It includes pens, pencils, ruler, eraser, 
+    colored pens, highlighters, index cards, and a variety of notebooks and pads. The kit comes with a strong handle 
+    for easy use and a strong grip for easy use. The kit comes with a strong handle for easy use and a strong grip 
+    for easy use.`,
+    features: [
+      "Includes pens, pencils, ruler, eraser",
+      "Portable case with built-in storage",
+      "Smart case with built-in storage",
+      "Ease of use instructions",
+      "Durable build for office and school use",
+    ],
+    reviews: [
+      {
+        id: 1,
+        title: "Positive Review – Student Perspective",
+        rating: 5,
+        comment:
+          "This stationery kit has been a great addition to my stationery collection. It's easy to use, and it's perfect for both office and school use. I highly recommend it!",
+      },
+      {
+        id: 2,
+        title: "Neutral Review – General Use",
+        rating: 4,
+        comment:
+          "I like this stationery kit, but I think it could be better if it had a few more features. Maybe a longer handle or a way to store more papers.",
+      },
+      {
+        id: 3,
+        title: "Critical Review – Professional/Engineer",
+        rating: 3,
+        comment:
+          "This stationery kit is solid, but I think it could be better if it had a longer handle. I also think it could be more durable to avoid breaking.",
+      },
+      {
+        id: 4,
+        title: "Critical Review – Beginner User",
+        rating: 3,
+        comment:
+          "I found this stationery kit a bit overwhelming at first. It has a lot of features, but the instructions weren’t very beginner-friendly. It works fine, but I had to look up tutorials online to figure it out.",
+      },
+    ],
   },
   {
     id: 10,
@@ -328,9 +506,49 @@ export const officeProducts = [
     img: staplerImg,
     rating: 4,
     title: "Durable and Ergonomic Stapler",
-    description: "Strong and durable stapler for everyday office and school use.",
-    features: ["Durable build", "Easy to reload", "Compact design"],
-    reviews: [],
+    description: `Strong and durable stapler for everyday office and school use. It's made from durable materials like glass and plastic, 
+    which means it will last a long time. This stapler is made from durable materials like glass and plastic, 
+    which means it will last a long time. The stapler comes with a strong handle for easy use and a strong grip for easy use. 
+    The stapler comes with a strong handle for easy use and a strong grip for easy use.`,
+    features: [
+      "Durable build for office and school use",
+      "Easy to reload for easy use",
+      "Compact design for easy transportation",
+      "Strong handle for easy use",
+      "Strong grip for easy use",
+    ],
+    reviews: [
+      {
+        id: 1,
+        title: "Positive Review – Student Perspective",
+        rating: 5,
+        comment:
+          "This stapler has been a great addition to my stationery collection. It's durable and easy to use, and it's perfect for both office and school use. I highly recommend it!",
+      },
+      {
+        id: 2,
+        title: "Neutral Review – General Use",
+        rating: 4,
+        comment:
+          "I like this stapler, but I think it could be better if it had a few more features. Maybe a longer handle or a way to store more papers.",
+      },
+      {
+        id: 3,
+        title: "Critical Review – Professional/Engineer",
+        rating: 3,
+        comment:
+          "This stapler is solid, but I think it could be better if it had a longer handle. I also think it could be more durable to avoid breaking.",
+      },
+      {
+        id: 4,
+        title: "Critical Review – Beginner User",
+        rating: 3,
+        comment:
+          "I found this stapler a bit overwhelming at first. It has a lot of features, but the instructions weren’t very beginner-friendly. It works fine, but I had to look up tutorials online to figure it out.",
+
+      }
+      
+    ],
   },
     {
     id: 12,
@@ -342,6 +560,35 @@ export const officeProducts = [
     title: "Complete Stationery Kit for Students and Professionals",
     description: "Complete stationery kit for students and professionals.",
     features: ["Includes pens, pencils, ruler, eraser", "Portable case"],
-    reviews: [],
+    reviews: [
+      {
+        id: 1,
+        title: "Positive Review – Student Perspective",
+        rating: 5,
+        comment:
+          "This stationery kit has been a great addition to my stationery collection. It's easy to use, and it's perfect for both office and school use. I highly recommend it!",
+      },
+      {
+        id: 2,
+        title: "Neutral Review – General Use",
+        rating: 4,
+        comment:
+          "I like this stationery kit, but I think it could be better if it had a few more features. Maybe a longer handle or a way to store more papers.",
+      },
+      {
+        id: 3,
+        title: "Critical Review – Professional/Engineer",
+        rating: 3,
+        comment:
+          "This stationery kit is solid, but I think it could be better if it had a longer handle. I also think it could be more durable to avoid breaking.",
+      },
+      {
+        id: 4,
+        title: "Critical Review – Beginner User",
+        rating: 3,
+        comment:
+          "I found this stationery kit a bit overwhelming at first. It has a lot of features, but the instructions weren’t very beginner-friendly. It works fine, but I had to look up tutorials online to figure it out.",
+      },
+    ],
   },
 ];
